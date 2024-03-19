@@ -1,0 +1,75 @@
+*,
+::after,
+::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+    font-size: 22px;
+    font-family: Poppins-Regular, sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100VH;
+
+}
+#agecalc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black; 
+    margin: 3em 5em;
+    /* margin-left: 3em;
+    margin-right: 3em; */
+    padding: 15em auto;   
+}
+article {
+    border: 2px solid red;
+    margin: 7em auto;
+    align-items: center;
+    margin-left: 15em;
+    margin-right:15em;
+    padding: 20px;
+    height: 20em;
+    width: 25em;
+    border-radius: 20px;
+    border-bottom-right-radius: 6em;
+    
+}
+#date-form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    
+    
+    
+}
+input {
+    font-size: 32px;
+    width: 4em;
+    padding: 8px;
+    margin: 10px;
+    margin-left: 0px;
+}
+#label {
+    margin-left: 10px;
+}
+
+
+
+
+
+.attribution {
+     font-size: 11px;
+     text-align: center;
+     }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+     }
+
