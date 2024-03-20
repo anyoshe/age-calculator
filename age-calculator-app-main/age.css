@@ -13,55 +13,72 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-height: 100VH;
+    max-height: 100vh;
+    /* margin: 10em;
+    padding: 5em; */
 
 }
 #agecalc {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid black; 
-    margin: 3em 5em;
-    /* margin-left: 3em;
-    margin-right: 3em; */
-    padding: 15em auto;   
+    border: 2px solid rgb(102, 0, 255);
+    margin: 2em auto;
+    height: 90vh;
+
 }
 article {
     border: 2px solid red;
-    margin: 7em auto;
+    margin: 4em auto;
     align-items: center;
-    margin-left: 15em;
-    margin-right:15em;
+    margin-left: 12em;
+    margin-right:12em;
     padding: 20px;
-    height: 20em;
-    width: 25em;
+    height: 150vh;
+    width: 23em;
     border-radius: 20px;
-    border-bottom-right-radius: 6em;
+    border-bottom-right-radius:6.3em;
     
 }
 #date-form {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
     margin-right: auto;
-    
-    
-    
+       
 }
 input {
     font-size: 32px;
-    width: 4em;
-    padding: 8px;
+    width: 3.4em;
+    padding: 3px;
     margin: 10px;
-    margin-left: 0px;
+    margin-left: 5px;
+    font-weight: 750;
+    border: 1px solid black;
+    border-radius: 5px;
+
 }
 #label {
-    margin-left: 10px;
+    margin-left:5px;
+    font-weight: 600;
+    color: rgb(83, 81, 81);
 }
-
-
+label {
+    font-size: 17px;
+    margin-left: 5px;
+}
+#age {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+ #age h1 {
+    font-style: italic;
+    font: poppins-bold;
+    font-size: 42px;
+    font-weight: 900;
+ }
+ 
 
 
 
